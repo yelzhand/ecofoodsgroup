@@ -1,0 +1,59 @@
+.delivery-addresses
+    background: rgba(222, 222, 222, 0.9)
+
+    width: 470px
+
+    padding: 25px
+
+    &__header
+        font-size: 30px
+        letter-spacing: -0.005em
+        text-align: center
+
+        color: #416D49
+
+        margin-bottom: 24px
+
+    &__items
+        max-height: 60vh
+        overflow-y: scroll
+
+    &__item
+        background: #FFFFFF
+        border-radius: 5px
+
+        padding: 15px 20px
+
+        &:not(:last-child)
+            margin-bottom: 15px
+
+        &:last-child
+            margin-bottom: 30px
+
+        &__headers
+            display: flex
+            justify-content: space-between
+            align-items: center
+
+        &__header
+            display: flex
+            justify-content: space-between
+            align-items: center
+            min-width: 30%
+            max-width: 60%
+
+            font-weight: 250
+            font-size: 16px
+
+            color: #2C2C2C
+
+        &__chevron
+            margin-top: 14px
+            display: flex
+            justify-content: center
+            align-items: center
+
+    &__item > .search-address__item-list__headers
+
+        .search-address__item-list__header
+            min-width: 30%
